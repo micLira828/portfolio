@@ -4,9 +4,10 @@ function Contact() {
       <h2>Contact Us</h2>
       <p>Please enter your contact information, <br></br>
 	     and you'll hear back within 24 hours! :)</p>
-       
+
+      <div>
       <form class = "form-inline justify-content-center">
-      <div></div>
+      
       <label class="form-label"> Name
 	     <input type="text" class="form-control" placeholder="Jane Smith" require/></label><br></br>
        <label> Email
@@ -15,6 +16,7 @@ function Contact() {
        <input type="tel" class="form-control" placeholder="303-469-9076" required/></label><br></br>
        <button class = "btn btn-primary mb-3" type="submit">Submit</button>
       </form>
+      </div> 
       </div>
     );
   }

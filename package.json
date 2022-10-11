@@ -2,7 +2,8 @@
   "name": "my-react-app",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://miclira828.github.io/portfolio/",
+  "homepage": "https://micLira828.github.io/portfolio/",
+  
  "dependencies":
     {
     "@testing-library/jest-dom": "^5.16.5",
