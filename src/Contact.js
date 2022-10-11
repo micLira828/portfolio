@@ -6,6 +6,7 @@ function Contact() {
 	     and you'll hear back within 24 hours! :)</p>
        
       <form class = "form-inline justify-content-center">
+      <div></div>
       <label class="form-label"> Name
 	     <input type="text" class="form-control" placeholder="Jane Smith" require/></label><br></br>
        <label> Email

@@ -1,6 +1,5 @@
 import * as React from "react"
 import './Computer.css';
-import $ from 'jquery';
 
 const Computer = (props) => (
   <svg

@@ -1,5 +1,4 @@
 import { Outlet, Link } from "react-router-dom";
-import anim from './computer.svg';
 import './App.css';
 
 const Nav = () => {
