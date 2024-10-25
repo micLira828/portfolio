@@ -274,6 +274,9 @@ li{
     justify-content: center;
     justify-content: space-between;
     gap: 10rem;
+    background-image: url('images/paintbrushesAndFairyDust.png');
+    background-position: center;
+    background-size: cover;
 }
 
 .personal-info__content{
@@ -622,6 +625,9 @@ li{
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    background-image: url('images/paintAndSparkles.png');
+    background-size: cover;
+    background-position: center center;
   }
 
   .news__info--title{
