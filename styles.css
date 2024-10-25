@@ -274,9 +274,10 @@ li{
     justify-content: center;
     justify-content: space-between;
     gap: 10rem;
-    background-image: url('images/paintbrushesAndFairyDust.png');
-    background-position: center;
+    background-image: url('images/paintbrushes\ and\ fairy.png');
+    background-position: center center;
     background-size: cover;
+    z-index: -2;
 }
 
 .personal-info__content{
@@ -285,6 +286,7 @@ li{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+   
 }
 
 .personal-info__content--experience{
@@ -320,6 +322,7 @@ li{
     content: "";
     position:absolute;
     z-index: -1;
+    
 }
 
 .personal-info__img::before{
