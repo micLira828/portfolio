@@ -11,10 +11,11 @@
 
 :root{
     font-size: 62.5%;
+   
 
     /*Color Variable*/
     --color-primary: hsl(0, 0%, 100%);
-    --color-secondary: hsl(0, 0%, 11%);
+    --color-secondary: hsl(240, 100%, 10%);
     --color-secondary-m: hsl(0, 0%, 11%, 0.4);
     --color-tertiary: hsl(0, 0%, 17%);
     --color-quaternary: hsl(0, 1%, 50%);
