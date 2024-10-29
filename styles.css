@@ -735,3 +735,48 @@ li{
   .news__article--img:hover img{
     transform:scale(0.95);
   }
+
+  .open{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-d-m-h) var(--padding-d-m-v);
+  }
+
+ 
+
+  ::backdrop {
+    background-image: linear-gradient(
+      45deg,
+      magenta,
+      rebeccapurple,
+      dodgerblue,
+      green
+    );
+    opacity: 0.75;
+  }
+
+  .contact__dialog-content__phone-and-email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact__dialog-content__phone-and-email__wrapper{
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact__dialog-content__phone-and-email__wrapper div{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact__dialog-content__phone-and-email__wrapper:first-child{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
