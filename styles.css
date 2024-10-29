@@ -638,6 +638,14 @@ li{
     padding-bottom: var(--padding-st-s-h);
   }
 
+  .news__info--para{
+    color: var(--color-primary);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: var(--padding-d-m-v) var(--padding-d-m-h);
+    border-radius: 50px 0;
+   
+  }
+
   .news__info--title::after{
     content: "";
     position: absolute;
