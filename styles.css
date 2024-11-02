@@ -807,5 +807,13 @@ li{
     .personal-info__img::before{
         left: -10%;
     }
+
+    .section__title{
+        font-size: var(--font-size-st-mc);
+    }
+
+    .services__service-cards--card{
+        border: none !important;
+    }
   }
 
