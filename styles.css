@@ -781,6 +781,10 @@ li{
     flex-wrap: wrap;
   }
 
+  .hamburger{
+    position: fixed;
+  }
+
 
   @media screen and (max-width: 1300px) {
     .my-works__imgs--img{
@@ -788,7 +792,24 @@ li{
         grid-row: auto / auto !important;
     }
   }
+
   @media screen and (max-width: 900px) {
+
+    .section__para{
+        padding: var(--padding-d-l-v) var(--padding-d-mc-h) 
+    }
+
+    .header__nav{
+        flex-direction: column; 
+        justify-content:center; 
+        padding: var(--padding-d-m-v) var(--padding-d-l-h);
+        background-color: var(--color-secondary);
+        color: var(--color-quaternary);
+        transition: 0.2s ease-in-out; 
+        position:fixed; 
+        top: 0; 
+        right: 0;
+    }
     .hero__content{
         flex-basis: auto;
     }
