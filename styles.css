@@ -275,10 +275,6 @@ li{
     justify-content: center;
     justify-content: space-between;
     gap: 10rem;
-    background-image: url('images/paintbrushes\ and\ fairy.png');
-    background-position: center center;
-    background-size: cover;
-    z-index: -2;
 }
 
 .personal-info__content{
@@ -405,7 +401,6 @@ li{
 .parallax{
     height: 100%;
     width: 100%;
-    background-image: url("images/hero-bg.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -630,9 +625,6 @@ li{
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    background-image: url('images/paintAndSparkles.png');
-    background-size: cover;
-    background-position: center center;
   }
 
   .news__info--title{
