@@ -401,6 +401,7 @@ li{
 .parallax{
     height: 100%;
     width: 100%;
+    background-image: url("images/hero-bg.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -750,6 +751,8 @@ li{
     );
     opacity: 0.75;
   }
+
+
 
   .contact__dialog-content__phone-and-email{
     display: flex;
