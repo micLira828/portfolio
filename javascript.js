@@ -1,1 +1,1 @@
-alert('Portfolio down for maintenance, while a new one is being created. The new version is coming asap. Stay tuned!')
+alert('Portfolio down for maintenance, while a new one is being created. The new version is coming asap. Stay tuned! 🌟🥳')
